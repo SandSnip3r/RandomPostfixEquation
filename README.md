@@ -6,7 +6,7 @@ It's clear that this math is incorrect. I was curious if I could find a real equ
 
 I decided to take the random approach. I'll pick a combination of random numbers from a user-given list and random operations. Currently, only 4 operations are supported, `+`, `-`, `*`, and `/`. I have a few reasons for taking this random approach.
 
-1. Taking the sequential approach would hardly exhaust all equations if the quantity of numbers or the number of terms in the equation is large.
+1. Taking the sequential approach would hardly exhaust all equations if the quantity of numbers or the number of terms in the equation is large. The random approach obviously wont exaust all the equations either, it might even create duplicates, but it will help with problem #2.
 2. I believe if I sequentially stepped through the possible equations, I would get solution groupings as well. For example, I'll have to go through billions of equations that start with a small number divided by something. In that case, I'd only see small numbers and never see 2017.
 3. It was a bit easier to quickly POC this idea.
 

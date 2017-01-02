@@ -38,6 +38,6 @@ Which translates to the following infix
 
 ![alt tag](imageForReadme/2017IsActuallyGonnaBeLitMathJax.PNG)
 
-This was rendered using the MathJax formula `\frac{69}{69} - (69 + 69) \times 69 \times \frac{\frac{\frac{420}{69 + \frac{69}{69} + 69 - (69 + 420)}}{69}}{\frac{69}{420 + 420}}`
+This was rendered using the MathJax formula `\frac{69}{69} - (69 + 69) \times 69 \times \frac{\frac{\frac{420}{69 + \frac{69}{69} + 69 - (69 + 420)}}{69}}{\frac{69}{420 + 420}} = 2017`
 
 [Here is a Wolfram Alpha query representing the above](http://www.wolframalpha.com/input/?i=69+%2F+69+-+(69+%2B+69)+*+69+*+420+%2F+(69+%2B+69+%2F+69+%2B+69+-+(69+%2B+420))+%2F+69+%2F+(69+%2F+(420+%2B+420)))

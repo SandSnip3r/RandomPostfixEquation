@@ -34,8 +34,10 @@ It turns out that 2017 is a pretty difficult number to create using an equation 
 
 `69 69 / 69 69 + 69 420 69 69 69 / 69 + + 69 420 + - / * * 69 / 69 420 420 + / / -`
 
-Which translates to the following infix, shown by [Wolfram Alpha](http://www.wolframalpha.com/input/?i=69+%2F+69+-+(69+%2B+69)+*+69+*+420+%2F+(69+%2B+69+%2F+69+%2B+69+-+(69+%2B+420))+%2F+69+%2F+(69+%2F+(420+%2B+420)))
+Which translates to the following infix
 
-![alt tag](imageForReadme/2017IsActuallyGonnaBeLit.PNG)
+![alt tag](imageForReadme/2017IsActuallyGonnaBeLitMathJax.PNG)
 
-*Note: There isn't actually a 1 in my equation, that was WolframAlpha simplifying a case of `69/69`. I dont know why it wasnt done for the other occurences of `69/69` though.*
+This was rendered using the MathJax formula `\frac{69}{69} - (69 + 69) \times 69 \times \frac{\frac{\frac{420}{69 + \frac{69}{69} + 69 - (69 + 420)}}{69}}{\frac{69}{420 + 420}}`
+
+[Here is a Wolfram Alpha query representing the above](http://www.wolframalpha.com/input/?i=69+%2F+69+-+(69+%2B+69)+*+69+*+420+%2F+(69+%2B+69+%2F+69+%2B+69+-+(69+%2B+420))+%2F+69+%2F+(69+%2F+(420+%2B+420)))

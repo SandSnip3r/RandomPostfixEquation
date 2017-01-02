@@ -38,6 +38,7 @@ std::string Equation::toString() const {
 		}
 		equationString += ' ';
 	}
+	equationString.pop_back();
 	return equationString;
 }
 

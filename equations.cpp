@@ -1,4 +1,5 @@
 #include "equations.hpp"
+#include <algorithm>
 #include <stdexcept>
 
 EquationPiece::EquationPiece(char op) : type(Type::Operation), operation(op) {}
@@ -19,6 +20,9 @@ void Equation::addNumber(double num) {
 }
 
 void Equation::addOperation(char op) {
+	if (find(OPERATIONS.begin(), OPERATIONS.end(), op) == OPERATIONS.end()) {
+		throw std::runtime_error(std::string("Invalid operation ")+op+" added to equation.");
+	}
 	equationPieces.emplace_back(op);
 }
 
@@ -71,6 +75,9 @@ double Equation::evaluate() {
 					throw std::runtime_error("Trying to divide by 0.");
 				}
 				result = num2/num1;
+				break;
+			default:
+				//Cant get here because addOperation disallows invalid operations
 				break;
 			}
 

@@ -27,7 +27,7 @@ const int DESIRED_TERM_COUNT = 4;
 Equation equation = randomEquationBuilder.build(DESIRED_TERM_COUNT);
 
 double result = equation.evaluate();
-std::cout << equation.toString() << "= " << result << '\n';
+std::cout << equation.toString() << " = " << result << '\n';
 ```
 
 It turns out that 2017 is a pretty difficult number to create using an equation of only 420's and 69's. I believe that's because 2017 is prime. After trying for quite a while, I didnt find an equation until I started generating equations with 16 terms.

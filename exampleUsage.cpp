@@ -14,7 +14,7 @@ int main() {
 		Equation equation = randomEquationBuilder.build(GOAL_NUMBER_COUNT);
 		try {
 			double result = equation.evaluate();
-			cout << equation.toString() << "= " << result << '\n';
+			cout << equation.toString() << " = " << result << '\n';
 		} catch (std::runtime_error &rte) {
 			cout << equation.toString() << "failed. " << rte.what() << '\n';
 		}
